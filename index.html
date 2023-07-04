@@ -12,11 +12,11 @@
 </head>
 <body>
   <header class="header">
-    <div class="header__container container">
+    <div class="header__container container flex">
       <div class="header__wrap flex">
         <div class="header__logo">
           <a href="#">
-            <img src="img/logo.svg" alt="Green Trava">
+            <img src="img/logo fix.svg" alt="Green Trava">
           </a>
         </div>
         <nav class="header__nav">
@@ -27,12 +27,14 @@
           </ul>
         </nav>
       </div>
+      <h1 class="header__title">изготовление крафтовой мебели и предметов декора из эпоксидной смолы
+      </h1>
     </div>
   </header>
 
   <main>
     <section class="materials">
-    <div class="materials__container container">
+      <div class="materials__container container">
       <div class="materials__blocks flex">
         <p class="materials__text">
           Подстолье отлично смотрится в&nbsp;сочетании практически со всеми видами&nbsp;столов.<br>Металлические конструкции отличаются хорошим качеством,прочностью и износостойкостью
@@ -52,8 +54,7 @@
       </div>
       <h2 class="materials__title">Благодаря нашим проверенным поставщикам мы&nbsp;используем только качественные слэбы.
       </h2>
-    </div>
-    <span class="brand"></span>
+      </div>
     </section>
 
     <section id="proects" class="proects">
@@ -234,7 +235,7 @@
         </li>
 
         <li class="faq__item ac">
-          <button class="faq__btn faq__btn_size2_1024 btn-reset ac-trigger" aria-label="Столы какого размера изготавливает наша компания?">Столы какого размера изготавливает наша компания?
+          <button class="faq__btn faq__btn_size2_1024 btn-reset ac-trigger" aria-label="Столы какого размера изготавливает наша компания?">Столы какого размера<br>изготавливает наша компания?
             <svg class="faq__img" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <ellipse cx="25" cy="25" rx="25" ry="25" fill="#CACACA"/>
               <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z" fill="black"/>
@@ -289,8 +290,9 @@
     </section>
 
     <section class="feedback">
-    <div class="feedback__container">
+    <div class="feedback__container container">
       <div class="feedback__position flex">
+        <div id="map" style="width: 500px; height: 250px;"></div>
         <div class="feedback__wrap flex">
           <h2 class="feedback__title">Оставьте заявку и&nbsp;мы&nbsp;свяжемся с&nbsp;вами</h2>
           <form class="feedback__form form flex" action="">
@@ -321,8 +323,8 @@
         <span class="footer__rights">&copy;&ensp;Все права защищены 2023</span>
       </div>
       <div class="footer__column flex">
-        <h3 class="footer__subtitle">Навигация</h3>
         <nav class="footer__nav">
+          <h2 class="footer__subtitle">Навигация</h2>
           <ul class="footer__list list-reset">
             <li class="footer__item"><a class="footer__link" href="">Галерея</a></li>
             <li class="footer__item"><a class="footer__link" href="">О компании</a></li>
@@ -330,12 +332,11 @@
             <li class="footer__item"><a class="footer__link" href="">Политика конфиденциальности</a></li>
           </ul>
         </nav>
-        <!-- <div class="footer__docks">
-          <h3 class="footer__subtitle">Документы</h3>
+        <div class="footer__docks">
+          <h2 class="footer__subtitle">Документы</h2>
           <a class="footer__link" href="">Политика конфиденциальности</a>
-        </div> -->
+        </div>
       </div>
-      <div id="map" style="width: 500px; height: 250px;"></div>
     </div>
     </footer>
   </main>
