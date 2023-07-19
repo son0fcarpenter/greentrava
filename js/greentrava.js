@@ -60,11 +60,11 @@ myMap.geoObjects.add(myPlacemark);
   // Квиз-----------------------------------------------------------------------------
 
   
-    (function () {
+    function () {
         new enquiz_ioLoader({
             quiz_hash:"sawxbij",
             type: enquiz_ioLoader.FLOAT,
             button: "#quiz",
             hash: "quiz_sawxbij"
         })
-    })()
+    };
