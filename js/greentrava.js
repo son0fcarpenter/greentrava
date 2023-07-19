@@ -59,7 +59,7 @@ myMap.geoObjects.add(myPlacemark);
 
   // Квиз-----------------------------------------------------------------------------
 
-  <script>
+  
     (function () {
         new enquiz_ioLoader({
             quiz_hash:"sawxbij",
@@ -68,4 +68,3 @@ myMap.geoObjects.add(myPlacemark);
             hash: "quiz_sawxbij"
         })
     })()
-</script>
