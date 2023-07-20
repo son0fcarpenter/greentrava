@@ -141,6 +141,10 @@ div[data-formid] div .btn_modal-box .btn-modal {
   background-color: transparent;
 }
 
+div[data-formid] div .form-overlay .form-modal {
+  background-image: url("../img/квиз 1.png");
+}
+
 .header__list {
   justify-content: space-between;
 }
