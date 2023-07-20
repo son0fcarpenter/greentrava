@@ -134,7 +134,12 @@ p {
 
 .is_qform {
   margin-left: auto;
-}	
+}
+
+.btn-modal {
+  padding: 0;
+  background-color: transparent;
+}
 
 .header__list {
   justify-content: space-between;
