@@ -136,7 +136,7 @@ p {
   margin-left: auto;
 }
 
-.header__wrap div[data-formid] div .btn_modal-box .btn-modal {
+div[data-formid] div .btn_modal-box .btn-modal {
   padding: 0;
   background-color: transparent;
 }
