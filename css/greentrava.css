@@ -144,7 +144,11 @@ div[data-formid] div .btn_modal-box .btn-modal {
   font-weight: 600 !important;	
   background-color: transparent !important;
   color: #000000 !important;
+  transition: color .3s ease-in-out;
 }
+
+div[data-formid] div .btn_modal-box .btn-modal:hover {
+  color: #fff;
 
 div[data-formid] div .form-overlay .form-modal {
   background-image: url("../img/квиз 1.png") !important;
