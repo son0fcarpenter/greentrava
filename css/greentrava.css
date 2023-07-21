@@ -143,12 +143,7 @@ div[data-formid] div .btn_modal-box .btn-modal {
   font-size: 16px !important;
   font-weight: 600 !important;	
   background-color: transparent !important;
-  color: #000000 !important;
-  transition: color .3s ease-in-out;
-}
-
-div[data-formid] div .btn_modal-box .btn-modal:hover {
-  color: #fff;
+  color: #000000 !important;  
 }
 
 div[data-formid] div .form-overlay .form-modal {
@@ -164,25 +159,25 @@ div[data-formid="form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj"] form.qform .qform-row .
 }
 
 .qform-field.checkbox .qform-field__block_box__field-box__label, .qform-field.radio .qform-field__block_box__field-box__label, form.qform .qform-field.checkbox .qform-field__block_box__field-box__label, form.qform .qform-field.radio .qform-field__block_box__field-box__label {
-  display: flex;
+  display: flex !important;
 }
 
 .qform-field.checkbox .qform-field__block_box__field-box__label_img_text, .qform-field.radio .qform-field__block_box__field-box__label_img_text, form.qform .qform-field.checkbox .qform-field__block_box__field-box__label_img_text, form.qform .qform-field.radio .qform-field__block_box__field-box__label_img_text {
     height: auto;    
-    text-align: left;
-    width: 107px;    
-    padding-top: 13px;
+    text-align: left !important;
+    width: 107px !important;    
+    padding-top: 13px !important;
 }
 
 .qform-field.checkbox .qform-field__block_box__field-box__label_img, .qform-field.radio .qform-field__block_box__field-box__label_img, form.qform .qform-field.checkbox .qform-field__block_box__field-box__label_img, form.qform .qform-field.radio .qform-field__block_box__field-box__label_img {
-    border: none;
+    border: none !important;
     box-sizing: border-box;
     display: -ms-flexbox;
-    display: flex;
-    height: 50px;
+    display: flex !important;
+    height: 50px !important;
     line-height: 280px;
     outline-width: 0;    
-    width: 171px;    
+    width: 171px !important;    
 }
 	
 .header__list {
