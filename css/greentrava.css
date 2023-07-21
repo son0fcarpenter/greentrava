@@ -155,7 +155,7 @@ div[data-formid] div .form-overlay .form-modal {
 }
 
 .qform_line-nav__title {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 	
 .header__list {
