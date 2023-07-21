@@ -182,7 +182,7 @@ div[data-formid="form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj"] form.qform .qform-row .
 }
 
 form.qform .qform-row .qform-field__block_box__field-box_input {
-    color: #000000;
+    color: #000000 !important;
 }
 	
 .header__list {
