@@ -180,6 +180,10 @@ div[data-formid="form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj"] form.qform .qform-row .
     outline-width: 0;    
     width: 171px !important;    
 }
+
+form.qform .qform-row .qform-field__block_box__field-box_input {
+    color: #000000;
+}
 	
 .header__list {
   justify-content: space-between;
