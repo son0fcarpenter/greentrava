@@ -155,9 +155,9 @@ div[data-formid] div .form-overlay .form-modal {
   background-image: url("../img/квиз 1.png") !important;
 }
 
-/* .qform_line-nav__title {
+.qform_line-nav__title {
   font-weight: 600 !important;
-} */
+}
 	
 .header__list {
   justify-content: space-between;
