@@ -162,6 +162,28 @@ div[data-formid] div .form-overlay .form-modal {
 div[data-formid="form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj"] form.qform .qform-row .qform-field .qform-field__quiz-btn .qform-field__quiz-btn-box:not(.qform-submit-disabled) input.qform-field__quiz-btn__btn-next {
   background-color: #74CB80 !important;
 }
+
+.qform-field.checkbox .qform-field__block_box__field-box__label, .qform-field.radio .qform-field__block_box__field-box__label, form.qform .qform-field.checkbox .qform-field__block_box__field-box__label, form.qform .qform-field.radio .qform-field__block_box__field-box__label {
+  display: flex;
+}
+
+.qform-field.checkbox .qform-field__block_box__field-box__label_img_text, .qform-field.radio .qform-field__block_box__field-box__label_img_text, form.qform .qform-field.checkbox .qform-field__block_box__field-box__label_img_text, form.qform .qform-field.radio .qform-field__block_box__field-box__label_img_text {
+    height: auto;    
+    text-align: left;
+    width: 107px;    
+    padding-top: 13px;
+}
+
+.qform-field.checkbox .qform-field__block_box__field-box__label_img, .qform-field.radio .qform-field__block_box__field-box__label_img, form.qform .qform-field.checkbox .qform-field__block_box__field-box__label_img, form.qform .qform-field.radio .qform-field__block_box__field-box__label_img {
+    border: none;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    line-height: 280px;
+    outline-width: 0;    
+    width: 171px;    
+}
 	
 .header__list {
   justify-content: space-between;
