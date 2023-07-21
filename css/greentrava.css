@@ -160,7 +160,7 @@ div[data-formid] div .form-overlay .form-modal {
 }
 
 div[data-formid="form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj"] form.qform .qform-row .qform-field .qform-field__quiz-btn .qform-field__quiz-btn-box:not(.qform-submit-disabled) input.qform-field__quiz-btn__btn-next {
-  background-color: #74CB80;
+  background-color: #74CB80 !important;
 }
 	
 .header__list {
