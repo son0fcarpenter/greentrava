@@ -136,7 +136,7 @@ p {
  
 }
 
-/* div[data-formid] div .btn_modal-box .btn-modal {
+div[data-formid] div .btn_modal-box .btn-modal {
   padding: 0 !important;
   height: 18px !important;
   text-transform: uppercase !important;
@@ -149,10 +149,11 @@ p {
 
 div[data-formid] div .btn_modal-box .btn-modal:hover {
   color: #fff;
+}
 
 div[data-formid] div .form-overlay .form-modal {
   background-image: url("../img/квиз 1.png") !important;
-} */
+}
 
 /* .qform_line-nav__title {
   font-weight: 600 !important;
