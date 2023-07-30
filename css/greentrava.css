@@ -189,7 +189,7 @@ form.qform .qform-row .qform-field__block_box__field-box_input {
   position: relative;
 }
 
-.qform-field__block_box__field-box input:nth-child(1)::after {
+.qform-field__block_box__field-box input::after:nth-child(1) {
   content: url("../img/kruglyy-derevyannyy-stol-stitt-2 1.png");
   display: block;
   position: absolute;
@@ -198,7 +198,7 @@ form.qform .qform-row .qform-field__block_box__field-box_input {
   width: 200px;
   height: 200px;
   background-color: #3474BA;
-  opacity: 1;
+  opacity: 0;
   transition: opacity .3s ease-in-out ;
 }
 
