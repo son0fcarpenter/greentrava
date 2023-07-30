@@ -202,7 +202,7 @@ label[for*="W5CHjQMtX"]:nth-child(2)::after {
   transition: opacity .3s ease-in-out ;
 }
 
-label[for*="W5CHjQMtX"]:nth-child(2):hover::after {
+label[for*="W5CHjQMtX"]:hover:nth-child(2)::after {
   opacity: 1;
 }
 	
