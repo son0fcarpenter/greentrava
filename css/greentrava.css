@@ -185,8 +185,20 @@ form.qform .qform-row .qform-field__block_box__field-box_input {
     color: #000000 !important;
 }
 
+div[data-formid] div .form-overlay .form-modal {
+  padding: 50px 20px 20px !important;
+}
+
+.qform_line-nav__title {
+  font-size: 2em !important;
+}
+
+.qform-field.checkbox .qform-field__block_box__field-box label, .qform-field.radio .qform-field__block_box__field-box label, form.qform .qform-field.checkbox .qform-field__block_box__field-box label, form.qform .qform-field.radio .qform-field__block_box__field-box label {
+  font-size: 2em !important;
+}
+
 .qform-field__block_box__field-box {
-  position: relative;
+  position: relative;	
 }
 
 label[for*="W5CHjQMtX"]:nth-child(2)::after {
