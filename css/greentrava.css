@@ -198,7 +198,7 @@ form.qform .qform-row .qform-field__block_box__field-box_input {
   width: 200px;
   height: 200px;
   background-color: #3474BA;
-  opacity: 0;
+  opacity: 1;
   transition: opacity .3s ease-in-out ;
 }
 
