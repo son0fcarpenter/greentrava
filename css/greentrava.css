@@ -189,7 +189,7 @@ form.qform .qform-row .qform-field__block_box__field-box_input {
   position: relative;
 }
 
-label .qform-field__block_box__field-box__label::after {
+#form_10342_radio_W5CHjQMtX_0_0Tubf_kcc + label .qform-field__block_box__field-box__label::after {
   content: url("../img/kruglyy-derevyannyy-stol-stitt-2 1.png");
   display: block;
   position: absolute;
@@ -202,7 +202,7 @@ label .qform-field__block_box__field-box__label::after {
   transition: opacity .3s ease-in-out ;
 }
 
-label .qform-field__block_box__field-box__label:hover::after {
+#form_10342_radio_W5CHjQMtX_0_0Tubf_kcc + label .qform-field__block_box__field-box__label:hover::after {
   opacity: 1;
 }
 	
