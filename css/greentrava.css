@@ -189,7 +189,7 @@ form.qform .qform-row .qform-field__block_box__field-box_input {
   position: relative;
 }
 
-.qform-field__block_box__field-box label[for="form_10342_radio_W5CHjQMtX"]:nth-child(2)::after {
+.qform-field__block_box__field-box label[for*="W5CHjQMtX"]:nth-child(2)::after {
   content: "";
   display: block;
   position: absolute;
