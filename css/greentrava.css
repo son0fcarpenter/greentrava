@@ -209,7 +209,7 @@ label[for*="W5CHjQMtX"]:nth-child(2)::after {
   bottom: -20px;
   width: 200px;
   height: 200px;
-  background-image: url("../img/circle.jpg");
+  background-image: url("../img/Quiz/circle.jpg");
   opacity: 0;
   transition: opacity .3s ease-in-out ;
 }
