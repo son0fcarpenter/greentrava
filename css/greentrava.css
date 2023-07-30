@@ -197,7 +197,7 @@ label[for*="W5CHjQMtX"]:nth-child(2)::after {
   bottom: -20px;
   width: 200px;
   height: 200px;
-  background-image: url("kruglyy-derevyannyy-stol-stitt-2 1.png");
+  background-image: url("../img/wood.jpg");
   opacity: 0;
   transition: opacity .3s ease-in-out ;
 }
