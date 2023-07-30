@@ -189,7 +189,7 @@ form.qform .qform-row .qform-field__block_box__field-box_input {
   position: relative;
 }
 
-.qform-field__block_box__field-box label::after {
+.qform-field__block_box__field-box label::after:nth-child(1) {
   content: url("../img/kruglyy-derevyannyy-stol-stitt-2 1.png");
   display: block;
   position: absolute;
