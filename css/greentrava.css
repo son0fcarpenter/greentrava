@@ -184,6 +184,27 @@ div[data-formid="form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj"] form.qform .qform-row .
 form.qform .qform-row .qform-field__block_box__field-box_input {
     color: #000000 !important;
 }
+
+.qform-field__block_box__field-box {
+  position: relative;
+}
+
+#form_10342_radio_W5CHjQMtX_0_Obse2gn-t_lkoxwfgq0.fz44yic0vpf::after {
+  content: url("../img/kruglyy-derevyannyy-stol-stitt-2 1.png");
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  width: 200px;
+  height: 200px;
+  background-color: #3474BA;
+  opacity: 0;
+  transition: opacity .3s ease-in-out ;
+}
+
+#form_10342_radio_W5CHjQMtX_0_Obse2gn-t_lkoxwfgq0.fz44yic0vpf:hover::after {
+  opacity: 1;
+}
 	
 .header__list {
   justify-content: space-between;
