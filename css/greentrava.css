@@ -217,6 +217,23 @@ label[for*="W5CHjQMtX"]:nth-child(2)::after {
 label[for*="W5CHjQMtX"]:hover:nth-child(2)::after {
   opacity: 1;
 }
+
+label[for*="W5CHjQMtX"]:nth-child(4)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 6%;
+  bottom: 22%;
+  width: 30.93%;
+  height: 250px;
+  background-image: url("../img/Quiz/form/square.jpg");
+  opacity: 0;
+  transition: opacity .3s ease-in-out ;
+}
+
+label[for*="W5CHjQMtX"]:hover:nth-child(4)::after {
+  opacity: 1;
+}
 	
 .header__list {
   justify-content: space-between;
