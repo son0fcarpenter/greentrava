@@ -224,7 +224,7 @@ label[for*="W5CHjQMtX"]:nth-child(4)::after {
   display: block;
   position: absolute;
   right: 6%;
-  bottom: 22%;
+  bottom: 18;
   width: 30.93%;
   height: 250px;
   background-image: url("../img/Quiz/form/square.jpg");
@@ -234,6 +234,60 @@ label[for*="W5CHjQMtX"]:nth-child(4)::after {
 }
 
 label[for*="W5CHjQMtX"]:hover:nth-child(4)::after {
+  opacity: 1;
+}
+
+label[for*="W5CHjQMtX"]:nth-child(6)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 6%;
+  bottom: 18;
+  width: 30.93%;
+  height: 250px;
+  background-image: url("../img/Quiz/form/rectangle.jpg");
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity .3s ease-in-out ;
+}
+
+label[for*="W5CHjQMtX"]:hover:nth-child(6)::after {
+  opacity: 1;
+}
+
+label[for*="W5CHjQMtX"]:nth-child(8)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 6%;
+  bottom: 18;
+  width: 30.93%;
+  height: 250px;
+  background-image: url("../img/Quiz/form/ellipse.png");
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity .3s ease-in-out ;
+}
+
+label[for*="W5CHjQMtX"]:hover:nth-child(8)::after {
+  opacity: 1;
+}
+
+label[for*="W5CHjQMtX"]:nth-child(10)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 6%;
+  bottom: 18;
+  width: 30.93%;
+  height: 250px;
+  background-image: url("../img/Quiz/form/oval.png");
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity .3s ease-in-out ;
+}
+
+label[for*="W5CHjQMtX"]:hover:nth-child(10)::after {
   opacity: 1;
 }
 	
