@@ -392,7 +392,9 @@ label[for*="bBbptR4SI"]:hover:nth-child(10)::after {
   columns: 3 auto;
 }
 
-
+.qform-row .wrap-underframe .qform-field_wrap .qform-field__block .qform-field__block_box .qform-field__block_box__field .qform-field__block_box__field-box .underframe {
+  font-size: 1em;
+}
 
 
 	
