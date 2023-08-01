@@ -396,6 +396,10 @@ label[for*="bBbptR4SI"]:hover:nth-child(10)::after {
   font-size: 1em !important;
 }
 
+.qform-row .wrap-underframe .qform-field_wrap .qform-field__block .qform-field__block_box .qform-field__block_box__field .qform-field__block_box__field-box .underframe qform-field__block_box__field-box__label qform-field__block_box__field-box__label_img_text {
+  width: 20px !important;
+}
+
 
 	
 .header__list {
