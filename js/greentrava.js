@@ -56,6 +56,15 @@ myMap.geoObjects.add(myGeoObject);
 myMap.geoObjects.add(myPlacemark);
   }
 
+function handleFormSubmit(event) {
+  // Просим форму не отправлять данные самостоятельно
+  event.preventDefault()
+  console.log('Отправка!')
+}
+
+const applicantForm = document.getElementById('order')
+applicantForm.addEventListener('submit', handleFormSubmit)
+
 
   // Квиз-----------------------------------------------------------------------------
 
