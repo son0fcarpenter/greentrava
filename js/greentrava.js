@@ -67,8 +67,8 @@ function handleFormSubmit(event) {
   console.log('Отправка!')
 }
 
-const applicantForm = document.getElementById("order")
-applicantForm.addEventListener("submit", handleFormSubmit)
+const applicantForm = document.getElementById('order')
+applicantForm.addEventListener('submit', handleFormSubmit)
 
 
   // Квиз-----------------------------------------------------------------------------
