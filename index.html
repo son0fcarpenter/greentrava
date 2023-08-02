@@ -299,7 +299,7 @@
         <div id="map" style="width: 500px; height: 250px;"></div>
         <div class="feedback__wrap flex">
           <h2 class="feedback__title">Оставьте заявку и&nbsp;мы&nbsp;свяжемся с&nbsp;вами</h2>
-          <form class="feedback__form form flex" action="send.php" method="POST">
+          <form id="order" class="feedback__form form flex" action="/apply/" method="POST">
             <div class="form__inner flex">
               <input class="form__input form__phone" name="name" type="text" placeholder="Введите Ваше имя">
               <input class="form__input form__email" name="phone" type="tel" placeholder="+7(999)999-99-99" required>              
@@ -308,7 +308,7 @@
               </label>
             </div>
             <div class="form__blockbutton flex">
-              <button class="form__send btn-reset">Отправить</button>
+              <button type="submit" class="form__send btn-reset">Отправить</button>
             </div>
           </form>
         </div>
