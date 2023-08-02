@@ -58,6 +58,11 @@ myMap.geoObjects.add(myPlacemark);
 
 
 
+
+function serializeForm(formNode) {
+  console.log(formNode.elements)
+}
+
 function handleFormSubmit(event) {  
   // Просим форму не отправлять данные самостоятельно
   event.preventDefault()
