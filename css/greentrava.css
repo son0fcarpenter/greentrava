@@ -198,7 +198,7 @@ div[data-formid] div .form-overlay .form-modal {
 }
 
 .qform-field__block_box__field-box {
-  	
+  position: static !important;	
 }
 
 /*------------------------------------------------ФОРМА----------------------------------------------------------  */
