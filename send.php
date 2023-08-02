@@ -1,10 +1,10 @@
 <?php
 /* Здесь проверяется существование переменных */
-if (isset($_POST['name'])) {$phone = $_POST['name'];}
-if (isset($_POST['phone'])) {$name = $_POST['phone'];}
+if (isset($_POST['name'])) {$name = $_POST['name'];}
+if (isset($_POST['tel'])) {$phone = $_POST['tel'];}
  
 /* Сюда впишите свою эл. почту */
-$myaddres  = "email@yandex .ru"; // кому отправляем
+$myaddres  = "a.hlopotov89@gmail.com"; // кому отправляем
  
 /* А здесь прописывается текст сообщения, \n - перенос строки */
 $mes = "Тема: Заказ обратного звонка!\nТелефон: $phone\nИмя: $name";
