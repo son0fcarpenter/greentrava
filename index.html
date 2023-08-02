@@ -299,10 +299,10 @@
         <div id="map" style="width: 500px; height: 250px;"></div>
         <div class="feedback__wrap flex">
           <h2 class="feedback__title">Оставьте заявку и&nbsp;мы&nbsp;свяжемся с&nbsp;вами</h2>
-          <form class="feedback__form form flex" action="">
+          <form class="feedback__form form flex" action="send.php" method="POST">
             <div class="form__inner flex">
-              <input class="form__input form__email" type="text" placeholder="E-mail">
-              <input class="form__input form__phone" type="text" placeholder="+7(999)999-99-99">
+              <input class="form__input form__phone" name="name" type="text">
+              <input class="form__input form__email" name="phone" type="email" placeholder="E-mail" required>              
               <label class="form__check">
                 <input type="checkbox" required> <span class="form__textprivate">Нажимая на&nbsp;кнопку, я&nbsp;соглашаюсь с </span><a href="#">политикой конфиденциальности.</a>
               </label>
