@@ -405,6 +405,10 @@ label[for*="bBbptR4SI"]:hover:nth-child(10)::after {
   width: 55px !important;	
 }
 
+form.qform .qform-row .qform-field__block_box__field-box {
+  width: 50% !important;
+}
+
 label[for*=bZDgoqjDN]:nth-child(2)::after {
   content: "";
   display: block;
@@ -512,7 +516,7 @@ label[for*=bZDgoqjDN]:nth-child(12)::after {
   right: 6%;
   top: -62%;
   z-index: 2;
-  width: 22.93%;
+  width: 24.93%;
   height: 49%;
   background-image: url("../img/Quiz/underframe/table6.jpg");
   background-size: cover;
