@@ -56,7 +56,9 @@ myMap.geoObjects.add(myGeoObject);
 myMap.geoObjects.add(myPlacemark);
   }
 
-function handleFormSubmit(event) {
+
+const event = 'submit';
+function handleFormSubmit(event) {  
   // Просим форму не отправлять данные самостоятельно
   event.preventDefault()
   console.log('Отправка!')
