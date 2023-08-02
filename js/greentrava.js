@@ -59,18 +59,16 @@ myMap.geoObjects.add(myPlacemark);
 
 
 
-function serializeForm(formNode) {
-  console.log(formNode.elements)
-}
+
 
 function handleFormSubmit(event) {  
   // Просим форму не отправлять данные самостоятельно
   event.preventDefault()
-  serializeForm(applicantForm)
+  console.log('Отправка!')
 }
 
-const applicantForm = document.getElementById('order')
-applicantForm.addEventListener('submit', handleFormSubmit)
+const applicantForm = document.getElementById("order")
+applicantForm.addEventListener("submit", handleFormSubmit)
 
 
   // Квиз-----------------------------------------------------------------------------
