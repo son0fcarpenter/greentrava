@@ -57,7 +57,12 @@ myMap.geoObjects.add(myPlacemark);
   }
 
 
+const element = document.querySelector('button')
 
+function handleClickFunction(event) {
+  alert('Именованная функция')
+}
+element.addEventListener('click', handleClickFunction)
 
 
 
