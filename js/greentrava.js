@@ -66,7 +66,7 @@ function serializeForm(formNode) {
 function handleFormSubmit(event) {  
   // Просим форму не отправлять данные самостоятельно
   event.preventDefault()
-  console.log('Отправка!')
+  serializeForm(applicantForm)
 }
 
 const applicantForm = document.getElementById('order')
