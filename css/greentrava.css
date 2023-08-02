@@ -198,7 +198,7 @@ div[data-formid] div .form-overlay .form-modal {
 }
 
 .qform-field__block_box__field-box {
-  position: relative;	
+  	
 }
 
 /*------------------------------------------------ФОРМА----------------------------------------------------------  */
@@ -413,10 +413,10 @@ label[for*=bZDgoqjDN]:nth-child(2)::after {
   content: "";
   display: block;
   position: absolute;
-  right: 6%;
-  top: -62%;
+  right: 13%;
+  top: 14%;
   z-index: 2;
-  width: 25.93%;
+  width: 28.93%;
   height: 49%;
   background-image: url("../img/Quiz/underframe/table1.jpg");
   background-size: cover;
@@ -433,10 +433,10 @@ label[for*=bZDgoqjDN]:nth-child(4)::after {
   content: "";
   display: block;
   position: absolute;
-  right: 6%;
-  top: -62%;
+  right: 13%;
+  top: 14%;
   z-index: 2;
-  width: 22.93%;
+  width: 28.93%;
   height: 49%;
   background-image: url("../img/Quiz/underframe/table2.jpg");
   background-size: cover;
@@ -453,10 +453,10 @@ label[for*=bZDgoqjDN]:nth-child(6)::after {
   content: "";
   display: block;
   position: absolute;
-  right: 6%;
-  top: -62%;
+  right: 13%;
+  top: 14%;
   z-index: 2;
-  width: 22.93%;
+  width: 28.93%;
   height: 49%;
   background-image: url("../img/Quiz/underframe/table3.jpg");
   background-size: cover;
@@ -473,10 +473,10 @@ label[for*=bZDgoqjDN]:nth-child(8)::after {
   content: "";
   display: block;
   position: absolute;
-  right: 6%;
-  top: -62%;
+  right: 13%;
+  top: 14%;
   z-index: 2;
-  width: 22.93%;
+  width: 28.93%;
   height: 49%;
   background-image: url("../img/Quiz/underframe/table4.jpg");
   background-size: cover;
@@ -493,10 +493,10 @@ label[for*=bZDgoqjDN]:nth-child(10)::after {
   content: "";
   display: block;
   position: absolute;
-  right: 6%;
-  top: -62%;
+  right: 13%;
+  top: 14%;
   z-index: 2;
-  width: 22.93%;
+  width: 28.93%;
   height: 49%;
   background-image: url("../img/Quiz/underframe/table5.jpg");
   background-size: cover;
@@ -513,10 +513,10 @@ label[for*=bZDgoqjDN]:nth-child(12)::after {
   content: "";
   display: block;
   position: absolute;
-  right: 6%;
-  top: -62%;
+  right: 13%;
+  top: 14%;
   z-index: 2;
-  width: 24.93%;
+  width: 28.93%;
   height: 49%;
   background-image: url("../img/Quiz/underframe/table6.jpg");
   background-size: cover;
@@ -533,10 +533,10 @@ label[for*=bZDgoqjDN]:nth-child(14)::after {
   content: "";
   display: block;
   position: absolute;
-  right: 6%;
-  top: -62%;
+  right: 13%;
+  top: 14%;
   z-index: 2;
-  width: 22.93%;
+  width: 28.93%;
   height: 49%;
   background-image: url("../img/Quiz/underframe/table7.jpg");
   background-size: cover;
@@ -553,10 +553,10 @@ label[for*=bZDgoqjDN]:nth-child(16)::after {
   content: "";
   display: block;
   position: absolute;
-  right: 6%;
-  top: -62%;
+  right: 13%;
+  top: 14%;
   z-index: 2;
-  width: 22.93%;
+  width: 28.93%;
   height: 49%;
   background-image: url("../img/Quiz/underframe/table8.jpg");
   background-size: cover;
@@ -573,10 +573,10 @@ label[for*=bZDgoqjDN]:nth-child(18)::after {
   content: "";
   display: block;
   position: absolute;
-  right: 6%;
-  top: -62%;
+  right: 13%;
+  top: 14%;
   z-index: 2;
-  width: 22.93%;
+  width: 28.93%;
   height: 49%;
   background-image: url("../img/Quiz/underframe/table9.jpg");
   background-size: cover;
