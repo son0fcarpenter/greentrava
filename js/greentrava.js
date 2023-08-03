@@ -63,7 +63,7 @@ function serializeForm(formNode) {
   Array.from(elements)
     .forEach((element) => {
       const { name, value } = element
-      alert({ name, value })
+      console.log({ name, value })
     })
 }
 
