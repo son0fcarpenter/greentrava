@@ -411,8 +411,12 @@ label[for*="bBbptR4SI"]:hover:nth-child(10)::after {
   width: 55px !important;	
 }
 
-form.qform .qform-row .qform-field__block_box__field-box {
+/* form.qform .qform-row .qform-field__block_box__field-box {
   width: 50% !important;
+} */
+
+.wrap-underframe {
+  width: 55% !important;
 }
 
 label[for*=bZDgoqjDN]:nth-child(2)::after {
