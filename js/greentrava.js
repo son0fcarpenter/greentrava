@@ -74,6 +74,9 @@ function serializeForm(formNode) {
   return data
 }
 
+function serializeForm(formNode) {
+  return new FormData(formNode)
+}
 
 
 function handleFormSubmit(event) {  
