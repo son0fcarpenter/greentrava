@@ -59,16 +59,19 @@ myMap.geoObjects.add(myPlacemark);
 
 function serializeForm(formNode) {
   const { elements } = formNode
+
   const data = Array.from(elements)
-    .filter((item) => !!item.name)
     .map((element) => {
-      const { name, value } = element
+      const { name, type } = element
+      const value = type === 'checkbox' ? element.checked : element.value
 
       return { name, value }
     })
+    .filter((item) => !!item.name)
 
   console.log(data)
 }
+
 
 function handleFormSubmit(event) {  
   // Просим форму не отправлять данные самостоятельно
