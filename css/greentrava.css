@@ -415,7 +415,7 @@ label[for*="bBbptR4SI"]:hover:nth-child(10)::after {
   width: 50% !important;
 } */
 
-.wrap-underframe, .wrap-quiz-manual, wrap-quiz-name, wrap-quiz-phone {
+.wrap-underframe, .wrap-quiz-manual, .wrap-quiz-name, .wrap-quiz-phone {
   width: 55% !important;
 }
 
