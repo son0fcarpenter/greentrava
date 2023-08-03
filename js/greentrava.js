@@ -57,16 +57,18 @@ myMap.geoObjects.add(myPlacemark);
   }
 
 
-
+function serializeForm(formNode) {
+  alert(formNode.elements)
+}
 
 function handleFormSubmit(event) {  
   // Просим форму не отправлять данные самостоятельно
-  event.preventDefault();
-  alert ('Отправка!');
+  event.preventDefault()
+  serializeForm(applicantForm)
 }
 
-const applicantForm = document.getElementById('order');
-applicantForm.addEventListener('submit', handleFormSubmit);
+const applicantForm = document.getElementById('order')
+applicantForm.addEventListener('submit', handleFormSubmit)
 
 
   // Квиз-----------------------------------------------------------------------------
