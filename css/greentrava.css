@@ -208,7 +208,7 @@ form.qform.qform-label_inside_hide.qform-size-md .qform-row .qform-field__block_
 }
 
 label[for*="0_name_1691077932644"] {
-  top: 120px;
+  top: 120px !important;
 }
 
 /*------------------------------------------------ФОРМА----------------------------------------------------------  */
