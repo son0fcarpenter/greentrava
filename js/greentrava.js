@@ -74,9 +74,14 @@ function serializeForm(formNode) {
   return data
 }
 
-function serializeForm(formNode) {
-  return new FormData(formNode)
+async function sendData(data) {
+  return await fetch('/api/apply/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'multipart/form-data' },
+    body: data,
+  })
 }
+
 
 
 function handleFormSubmit(event) {  
