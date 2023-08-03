@@ -82,18 +82,34 @@ async function sendData(data) {
   })
 }
 
+
+
+function toggleLoader() {
+  const loader = document.getElementById('loader')
+  loader.classList.toggle('hidden')
+}
+
+
+
 async function handleFormSubmit(event) {
   event.preventDefault()
-
   const data = serializeForm(event.target)
-  const response = await sendData(data)
+
+  toggleLoader()
+  const { status } = await sendData(data)
+  toggleLoader()
+
+  if (status === 200) {
+    onSuccess(event.target)
+  }
 }
 
-function handleFormSubmit(event) {  
-  // Просим форму не отправлять данные самостоятельно
-  event.preventDefault()
-  serializeForm(applicantForm)
+
+function onSuccess(formNode) {
+  alert('Ваша заявка отправлена!')
+  formNode.classList.toggle('hidden')
 }
+
 
 const applicantForm = document.getElementById('order')
 applicantForm.addEventListener('submit', handleFormSubmit)
