@@ -82,7 +82,12 @@ async function sendData(data) {
   })
 }
 
+async function handleFormSubmit(event) {
+  event.preventDefault()
 
+  const data = serializeForm(event.target)
+  const response = await sendData(data)
+}
 
 function handleFormSubmit(event) {  
   // Просим форму не отправлять данные самостоятельно
