@@ -203,7 +203,7 @@ div[data-formid] div .form-overlay .form-modal {
 }
 
 form.qform.qform-label_inside_hide.qform-size-md .qform-row .qform-field__block_box__field-box_label {
-  top: 38px !important;
+  top: 38px;
   left: 73.5px;
 }
 
