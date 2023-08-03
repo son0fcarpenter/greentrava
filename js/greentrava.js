@@ -57,23 +57,23 @@
 //   }
 
 
-// const element = document.querySelector('button')
+const element = document.querySelector('button')
 
-// function handleClickFunction(event) {
-//   alert('Именованная функция')
-// }
-// element.addEventListener('click', handleClickFunction)
-
-
-
-function handleFormSubmit(event) {  
-  // Просим форму не отправлять данные самостоятельно
-  event.preventDefault()
-  console.log('Отправка!')
+function handleClickFunction(event) {
+  alert('Именованная функция')
 }
+element.addEventListener('click', handleClickFunction)
 
-const applicantForm = document.getElementById('order')
-applicantForm.addEventListener('submit', handleFormSubmit)
+
+
+// function handleFormSubmit(event) {  
+//   // Просим форму не отправлять данные самостоятельно
+//   event.preventDefault()
+//   console.log('Отправка!')
+// }
+
+// const applicantForm = document.getElementById('order')
+// applicantForm.addEventListener('submit', handleFormSubmit)
 
 
   // Квиз-----------------------------------------------------------------------------
