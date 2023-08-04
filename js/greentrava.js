@@ -61,7 +61,7 @@ jQuery(document).ready(function () {
      $(".form__phone").mask("+7(999)999-99-99"); 
     
    
-    jQuery('.send-form').click( function() {
+    jQuery('.form__send').click( function() {
     	var form = jQuery(this).closest('form');
     	
     	if ( form.valid() ) {
