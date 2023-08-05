@@ -1210,7 +1210,9 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   display: none;
 }
 
-.form__check-input + form__check-text {
+
+
+.form__check-input + .form__check-text {
   position: absolute;
   top: 5px;
   left: -6px;
