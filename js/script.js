@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function nameTest(input) {
-    return !/^[A-Za-z]+$/.test(input.value);
+    return !/^[А-Яа-я]+$/.test(input.value);
   }
   
 });
