@@ -1197,7 +1197,7 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   margin-bottom: 22px;
 }
 
-.form__check {
+.form__check-block {
   position: relative;	
   width: 68.1%;
   font-weight: 121;
@@ -1210,7 +1210,7 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   display: none;
 }
 
-.form__check-input + span {
+.form__check-input + form__check-text {
   position: absolute;
   top: 5px;
   left: -6px;
