@@ -303,10 +303,10 @@
             <div class="form__inner flex">
               <input class="form__input form__name _req _name" name="name" type="text" placeholder="Введите Ваше имя">
               <input class="form__input form__phone _req" name="phone" type="tel" placeholder="+7(999)999-99-99">              
-              <label class="form__check">
-                <input class="form__check-input _req" type="checkbox" required> <span class="form__textprivate">Нажимая на&nbsp;кнопку, я&nbsp;соглашаюсь с </span><a href="#">политикой конфиденциальности.</a>
-                <span></span>
-              </label>
+              <div class="form__check-block">
+                <input class="form__check-input _req" id="forAgreement" name="check" type="checkbox">
+                <label class="form__check-text" for="forAgreement"> <span class="form__textprivate">Нажимая на&nbsp;кнопку, я&nbsp;соглашаюсь с </span><a href="#">политикой конфиденциальности.</a></label>
+              </div>
            </div>
            <div class="form__blockbutton flex">
              <button type="submit" class="form__send btn-reset">Отправить</button>
