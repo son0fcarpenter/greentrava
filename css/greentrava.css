@@ -1205,6 +1205,10 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   letter-spacing: 0.05em;
 }
 
+.form__check-block._error .form__check-text::before {
+  box-shadow: 0 0 15px red;
+}
+
 .form__check-input {
   display: none;
 }
@@ -1223,9 +1227,9 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
 .form__check-text::before {
   content: "";
   align-self: flex-start;
-  flex: 0 0 24px;
+  flex: 0 0 20px;
   margin-right: 10px;
-  height: 24px;
+  height: 20px;
   background-color: #FFFFFF;
   border-radius: 4px;
 }
@@ -1234,10 +1238,10 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   content: "";
   position: absolute;	
   margin-right: 10px;
-  width: 16px;  
-  height: 16px;
-  top: 4px;
-  left: 4px;
+  width: 14px;  
+  height: 14px;
+  top: 3px;
+  left: 3px;
   background-color: #7a956b;
   border-radius: 4px;
   transform: scale(0);
