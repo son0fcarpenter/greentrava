@@ -299,12 +299,12 @@
         <div id="map" style="width: 500px; height: 250px;"></div>
         <div class="feedback__wrap flex">
           <h2 class="feedback__title">Оставьте заявку и&nbsp;мы&nbsp;свяжемся с&nbsp;вами</h2>
-          <form class="feedback__form form flex" action="sender.php" method="POST">
+          <form class="feedback__form form flex" id="form" action="#" method="POST">
             <div class="form__inner flex">
-              <input class="form__input form__name" name="name" type="text" placeholder="Введите Ваше имя">
-              <input class="form__input form__phone" name="phone" type="tel" placeholder="+7(999)999-99-99" required>              
+              <input class="form__input form__name _req _name" name="name" type="text" placeholder="Введите Ваше имя">
+              <input class="form__input form__phone _req" name="phone" type="tel" placeholder="+7(999)999-99-99">              
               <label class="form__check">
-                <input type="checkbox" required> <span class="form__textprivate">Нажимая на&nbsp;кнопку, я&nbsp;соглашаюсь с </span><a href="#">политикой конфиденциальности.</a>
+                <input class="_req" type="checkbox" required> <span class="form__textprivate">Нажимая на&nbsp;кнопку, я&nbsp;соглашаюсь с </span><a href="#">политикой конфиденциальности.</a>
               </label>
            </div>
            <div class="form__blockbutton flex">
@@ -371,13 +371,10 @@
       }
     })();
   </script>
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="libs/accordion.min.js"></script>
-  <script src="libs/jquery.maskedinput.js"></script>
-  <script src="libs/jquery.validate.min.js"></script>
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"> </script>
-  <script src="js/script.js"></script>
+  <script src="libs/accordion.min.js"></script>  
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"> </script>  
   <script src="js/greentrava.js"></script>
 </body>
 </html>
