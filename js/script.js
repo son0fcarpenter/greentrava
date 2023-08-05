@@ -18,7 +18,10 @@ document.addEventListener('DOMContentLoaded', function() {
       formRemoveError(input);
 
       if (input.classList.contains('_name')) {
-        
+        if (nameTest(input)) {
+          formAddError(input);
+            error++;
+        }
       } else if (input.getAttribute("type") === "checkbox" && input.checked === false) {
          formAddError(input);
          error++;
@@ -40,6 +43,10 @@ document.addEventListener('DOMContentLoaded', function() {
   function formRemoveError(input) {
     input.parentElement.classList.remove('_error');
     input.classList.remove('_error');
+  }
+
+  function nameTest(input) {
+    return !/^[A-Za-z]+$/.test(input.value);
   }
   
 });
