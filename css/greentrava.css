@@ -1168,6 +1168,20 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   align-items: center;
 }
 
+.form {
+  position: relative;
+}
+
+.form::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;	
+  width: 100%;  
+  height: 100%;  
+  background: url("../img/7j9n.gif") center / 50px no-repeat;
+}
+
 .form__inner {
   flex-direction: column;
   padding-left: 64px;
@@ -1249,15 +1263,7 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
 }
 
 
-/* .form__check-input + .form__check-text {
-  
-  top: 5px;
-  left: -6px;
-  width: 15px;
-  height: 15px;
-  border: 1px solid #000000;
-  border-radius: 2px;
-} */
+
 
 .form__textprivate {
   user-select: none;
