@@ -1185,6 +1185,10 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   outline: none;
 }
 
+.form__input._error {
+  box-shadow: 0 0 15px red;
+}
+
 .form__phone {
   margin-bottom: 15px;
 }
