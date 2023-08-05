@@ -1197,8 +1197,7 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   margin-bottom: 22px;
 }
 
-.form__check-block {
-  position: relative;	
+.form__check-block {  
   width: 68.1%;
   font-weight: 121;
   font-size: 16px;
@@ -1210,10 +1209,44 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   display: none;
 }
 
+.form__check-input::checked + .form__check-text::after {
+  transform: scale(1);
+}
+
+.form__check-text {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.form__check-text::before {
+  content: "";
+  align-self: flex-start;
+  flex: 0 0 24px;
+  margin-right: 10px;
+  height: 24px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.form__check-text::after {
+  content: "";
+  position: absolute;	
+  margin-right: 10px;
+  width: 16px;  
+  height: 16px;
+  top: 4px;
+  left: 4px;
+  background-color: #7a956b;
+  border-radius: 4px;
+  transform: scale(0);
+  transition: transform 0.5s ease 0s;
+}
 
 
 .form__check-input + .form__check-text {
-  position: absolute;
+  
   top: 5px;
   left: -6px;
   width: 15px;
