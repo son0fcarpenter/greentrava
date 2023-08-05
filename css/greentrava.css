@@ -1198,11 +1198,26 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
 }
 
 .form__check {
+  position: relative;	
   width: 68.1%;
   font-weight: 121;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.05em;
+}
+
+.form__check-input {
+  display: none;
+}
+
+.form__check-input + span {
+  position: absolute;
+  top: 5px;
+  left: -6px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #000000;
+  border-radius: 2px;
 }
 
 .form__textprivate {
