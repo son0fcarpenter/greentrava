@@ -1209,7 +1209,7 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   display: none;
 }
 
-.form__check-input::checked + .form__check-text::after {
+.form__check-input:checked + .form__check-text::after {
   transform: scale(1);
 }
 
