@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let error = formValidate(form);
 
-    // let formData = new formData(form);
-    // formData.append('image', );
-
+    let formData = new formData(form);
+    console.log(formData);
+    
     if (error === 0) {
       form.classList.add('_sending');
       let response = await fetch('sendmail.php', {
