@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let error = formValidate(form);
 
-    let formData = new formData(form);
-    formData.append(input);
+    // let formData = new formData(form);
+    // formData.append('image', );
 
     if (error === 0) {
       form.classList.add('_sending');
