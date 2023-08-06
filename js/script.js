@@ -11,23 +11,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let formData = new formData(form);
 
-    if (error === 0) {
-      form.classList.add('_sending');
-      let response = await fetch('sendmail.php', {
-        method: 'POST',
-        body: formData
-      });
-      if (response.ok) {
-        let result = await response.json();
-        alert(result.message);
-        formPreview.innerHTML = '';
-        form.reset();
-        form.classList.remove('_sending');
-      } else {
-        alert("Ошибка");
-        form.classList.remove('_sending');
-        }
-      }  
+    // if (error === 0) {
+    //   form.classList.add('_sending');
+    //   let response = await fetch('sendmail.php', {
+    //     method: 'POST',
+    //     body: formData
+    //   });
+    //   if (response.ok) {
+    //     let result = await response.json();
+    //     alert(result.message);
+    //     formPreview.innerHTML = '';
+    //     form.reset();
+    //     form.classList.remove('_sending');
+    //   } else {
+    //     alert("Ошибка");
+    //     form.classList.remove('_sending');
+    //     }
+    //   }  
     }
   }
 
