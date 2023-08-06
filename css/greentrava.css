@@ -1185,7 +1185,7 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   transition: all 0.5s ease 0s;	
 }
 
-.form.sending::after {
+.form._sending::after {
   opacity: 1;
   visibility: visible;
 }
