@@ -1176,7 +1176,7 @@ form.qform.qform-label_outside_top .qform-row .qform-field-outside-label-box {
   display: none !important;    
 }
 
-form.qform .qform-row .qform-field__block_box__field {
+form.qform .qform-row #phone_0_box-field_1691422997461 {
   border: none !important;
   border-bottom: 1px solid #000000 !important;
 }
@@ -1187,9 +1187,9 @@ div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-row .
 
 .submit-box {
   align-items: center !important;
-  padding-top: 69px;
+  padding-top: 71px;
   width: 27.84% !important;
-  height: 166px !important; 
+  height: 112px !important; 
   background-image: url("../img/Group\ 3.png") !important;
   background-size: 167px 166px !important;
   background-repeat: no-repeat !important;
@@ -1203,6 +1203,14 @@ div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-field
 
 div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-field__submit .submit-box input.qform-field__submit__input.submit-button {
   font-size: 20px !important;	
+}
+
+form .qform-field__submit__input {
+  min-width: 160px !important;
+}
+
+form .qform-field__submit__input {
+  padding: 7px 7px !important;
 }
 
 .feedback__form {
