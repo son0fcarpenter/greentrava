@@ -1163,6 +1163,14 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   text-align: center;
 }
 
+.form.qform {
+  padding: 0 !important;
+}
+
+form.qform.qform-label_outside_top .qform-row .qform-field-outside-label-box {    
+    display: none !important;    
+}
+
 .feedback__form {
   flex-direction: column;
   align-items: center;
