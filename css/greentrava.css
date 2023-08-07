@@ -1150,6 +1150,7 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
 
 .feedback__wrap {
   flex-direction: column;
+  align-items: center;
   width: 50%;
 }
 
@@ -1161,6 +1162,10 @@ label[for*="bZDgoqjDN"]:hover:nth-child(18)::after {
   letter-spacing: 0.05em;
   color: #000000;
   text-align: center;
+}
+
+is_qform {
+  width: 83% !important;
 }
 
 form.qform {
