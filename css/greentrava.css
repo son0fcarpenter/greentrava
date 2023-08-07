@@ -1185,6 +1185,16 @@ div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-row .
     border-bottom: 1px solid #0CC863 !important;
 }
 
+.submit-box {
+   align-items: center !important;
+  width: 27.84% !important;
+  height: 166px !important;
+  /* z-index: 2; */
+  background-image: url("../img/Group\ 3.png") !important;
+  background-size: 167px 166px !important;
+  background-repeat: no-repeat !important;
+}
+
 .feedback__form {
   flex-direction: column;
   align-items: center;
