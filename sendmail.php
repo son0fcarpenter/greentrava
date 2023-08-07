@@ -29,12 +29,12 @@
 
   $mail->Body = $body;
 
-  // // Отправляем
-  // if (!$mail->send()) {
-  //   $message = 'Ошибка';
-  // } else {
-  //     $message = 'Данные отправлены!';
-  //   }
+  // Отправляем
+  if (!$mail->send()) {
+    $message = 'Ошибка';
+  } else {
+      $message = 'Данные отправлены!';
+    }
 
   $response = ['message' => $message];
 
