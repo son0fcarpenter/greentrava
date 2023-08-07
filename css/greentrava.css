@@ -1168,7 +1168,11 @@ form.qform {
 }
 
 form.qform.qform-label_outside_top .qform-row .qform-field-outside-label-box {    
-    display: none !important;    
+  display: none !important;    
+}
+
+form.qform .qform-row .qform-field__block_box__field {
+  border-bottom: 1px solid #c4c4c4;
 }
 
 .feedback__form {
