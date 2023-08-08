@@ -208,17 +208,19 @@ form.qform.qform-label_inside_hide.qform-size-md .qform-row .qform-field__block_
 }
 
 form.qform.qform-label_inside_hide.qform-size-md #qform-row_form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj_2_step11 .wrap-quiz-name .qform-field_wrap .qform-field__block .qform-field__block_box .qform-field__block_box__field  .qform-field__block_box__field-box  .qform-field__block_box__field-box_label {
-  top: 120px !important;
+/*   top: 120px !important; */
 }
 
 /*------------------------------------------------ФОРМА----------------------------------------------------------  */
+
+.wrap-form-table .qform-field_wrap .qform-field__block .qform-field__block_box .qform-field__block_box__field .qform-field__block_box__field-box .
 
 label[for*="W5CHjQMtX"]:nth-child(2)::after {
   content: "";
   display: block;
   position: absolute;
   right: 21%;
-  bottom: 36%;
+  bottom: 28%;
   width: 30.93%;
   height: 250px;
   background-image: url("../img/Quiz/form/circle.png");
@@ -236,7 +238,7 @@ label[for*="W5CHjQMtX"]:nth-child(4)::after {
   display: block;
   position: absolute;
   right: 21%;
-  bottom: 33%;
+  bottom: 28%;
   width: 30.93%;
   height: 250px;
   background-image: url("../img/Quiz/form/square.jpg");
@@ -254,7 +256,7 @@ label[for*="W5CHjQMtX"]:nth-child(6)::after {
   display: block;
   position: absolute;
   right: 21%;
-  bottom: 33%;
+  bottom: 20%;
   width: 30.93%;
   height: 315px;
   background-image: url("../img/Quiz/form/rectangle.jpg");
@@ -272,7 +274,7 @@ label[for*="W5CHjQMtX"]:nth-child(8)::after {
   display: block;
   position: absolute;
   right: 21%;
-  bottom: 33%;
+  bottom: 20%;
   width: 30.93%;
   height: 315px;
   background-image: url("../img/Quiz/form/ellipse.png");
@@ -290,7 +292,7 @@ label[for*="W5CHjQMtX"]:nth-child(10)::after {
   display: block;
   position: absolute;
   right: 23%;
-  bottom: 26%;
+  bottom: 8%;
   width: 30.93%;
   height: 355px;
   background-image: url("../img/Quiz/form/oval.png");
