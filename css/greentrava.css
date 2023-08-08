@@ -107,18 +107,18 @@ p {
 /* ------------------header--------------------------------------------------------- */
 
 
-/* .header {  
- 
-  background-repeat: no-repeat;
-} */
-
-
-.header__container {  
+.header {  
   padding-top: 29px;
   padding-bottom: 10px;
   background-image: url(../img/headerfon.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  
+}
+
+
+.header__container {  
+ 
 }
 
 .header__wrap {
