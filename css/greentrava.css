@@ -1368,15 +1368,14 @@ div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-field
   padding-bottom: 31px;
 }
 
-.footer__container {
-  justify-content: space-between;
+.footer__container {  
   margin-bottom: 20px;
   padding-right: 14px;
   padding-left: 14px;
 }
 
 .footer__name {
-  width: 23.64%;
+  width: 43.64%;
 }
 
 .footer__logo {
