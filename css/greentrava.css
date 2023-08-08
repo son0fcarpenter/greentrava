@@ -199,12 +199,12 @@ div[data-formid] div .form-overlay .form-modal {
 }
 
 .qform-field__block_box__field-box {
-  position: static !important;	
+/*   position: relative !important;	 */
 }
 
 form.qform.qform-label_inside_hide.qform-size-md .qform-row .qform-field__block_box__field-box_label {
-  top: 38px !important;
-  left: 73.5px;
+/*   top: 38px !important;
+  left: 73.5px; */
 }
 
 form.qform.qform-label_inside_hide.qform-size-md #qform-row_form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj_2_step11 .wrap-quiz-name .qform-field_wrap .qform-field__block .qform-field__block_box .qform-field__block_box__field  .qform-field__block_box__field-box  .qform-field__block_box__field-box_label {
