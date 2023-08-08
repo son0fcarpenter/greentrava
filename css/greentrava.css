@@ -1170,9 +1170,9 @@ div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] {
   width: 83% !important;
 }
 
-/* form.qform {
+div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform {
   padding: 0 !important;
-} */
+}
 
 /* form.qform.qform-label_outside_top .qform-row .qform-field-outside-label-box {    
   display: none !important;    
