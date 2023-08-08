@@ -147,11 +147,7 @@ div[data-formid="form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj"] div .btn_modal-box .btn
   color: #000000 !important;
 }
 
-div[data-formid="form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj"] div .btn_modal-box {
-    
-}
-
-div[data-formid="form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj"] div .btn_modal-box:hover {
+div[data-formid="form_ZM85ItaO4Gek4zwxMET09okziIwDqiEj"] div .btn_modal-box .btn-modal:hover {
   color: #FFFFFF !important; 
 }
 
