@@ -1178,14 +1178,14 @@ div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform.qform-label_
   display: none !important;    
 }
 
-div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-row #phone_0_box-field_1691422997461 {
+div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-row .form-border {
   border: none !important;
   border-bottom: 1px solid #000000 !important;
 }
 
-/* div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-row .qform-field .qform-field_wrap .qform-field__block .qform-field__block_box__field:hover {
+div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-row .qform-field .qform-field_wrap .qform-field__block .qform-field__block_box__field:hover {
   border-bottom: 1px solid #0CC863 !important;
-} */
+}
 
 /* .submit-box {
   align-items: center !important;
