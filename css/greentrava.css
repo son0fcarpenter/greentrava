@@ -1187,7 +1187,7 @@ div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-row .
   border-bottom: 1px solid #0CC863 !important;
 }
 
-/* .submit-box {
+div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-row .qform-field .qform-field__submit .submit-box {
   align-items: center !important;
   padding-top: 71px;
   width: 27.84% !important;
@@ -1195,7 +1195,7 @@ div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-row .
   background-image: url("../img/Group\ 3.png") !important;
   background-size: 167px 166px !important;
   background-repeat: no-repeat !important;
-} */
+}
 
 /* div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-field__submit:not(.qform-submit-disabled) .submit-box input.qform-field__submit__input.submit-button {
   color: #000000 !important;
