@@ -1178,7 +1178,7 @@ div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform.qform-label_
   display: none !important;    
 }
 
-div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-row .form-border {
+div[data-formid="form_R-WrIA-fQ9SwVibQ5vn4uae_Tkp75mzV"] form.qform .qform-row .qform-field .qform-field_wrap .qform-field__block .qform-field__block_box__field {
   border: none !important;
   border-bottom: 1px solid #000000 !important;
 }
