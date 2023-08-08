@@ -427,10 +427,10 @@ label[for*=bZDgoqjDN]:nth-child(2)::after {
   content: "";
   display: block;
   position: absolute;
-  right: 13%;
+  right: -52%;
   top: 14%;
   z-index: 2;
-  width: 28.93%;
+  width: 41.93%;
   height: 49%;
   background-image: url("../img/Quiz/underframe/table1.jpg");
   background-size: cover;
