@@ -38,7 +38,7 @@ body {
 main {
   background-image: url(../img/fon.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 a {
